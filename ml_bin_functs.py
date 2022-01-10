@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/18zC8meWoL7luOG1bU_--wDfZj4ghTsbH
 """
 
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy import linalg as LA
+import random
+
 def group_to_isometry(chi_locs):
   
   # construct optimal isometry from groupings
